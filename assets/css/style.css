@@ -1,0 +1,118 @@
+html {
+    font-size: 100%;
+}
+
+/*16px*/
+
+body {
+    background-image: url(../img/matrix.jpg);
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: white;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 3rem 0 1.38rem;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 3.052rem;
+    font-weight: 900;
+    margin: 0px;
+    color: red;
+}
+
+h2 {
+    font-size: 2.441rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.953rem;
+
+}
+
+h4 {
+    font-size: 1.563rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+small,
+.text_small {
+    font-size: 0.8rem;
+}
+
+header {
+    color: white;
+    height: 10em;
+    padding: 2em;
+    font-size: 1.5em;
+    background-image: url(../img/fig.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.products {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+.products table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.products thead {
+    background-color: red;
+    color: black;
+    border: 2px solid #ddd;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.products th {
+    border: 2px solid white;
+}
+
+.products td {
+    width: 50%;
+    padding: 1em;
+    border: 2px solid #ddd;
+}
+
+.products img {
+    width: 100%;
+    border: solid 2px #ddd;
+}
+
+footer {
+    height: 2em;
+    padding: 1.5em;
+    line-height: 0em;
+    background-image: url(../img/foot.jpg);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+.productsTitle {
+    text-align: center;
+}
